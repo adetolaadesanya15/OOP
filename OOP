@@ -1,0 +1,12 @@
+class Human:
+    def __init__(self, name, middlename, lastname, hobby):
+        self.name = name
+        self.middlename = middlename
+        self.lastname = lastname
+        self.hobby = hobby
+    def tellname(self):
+        print(f'{self.name} {self.middlename} {self.lastname} is doing {self.hobby} right now')    
+    def info(self):
+        print('programming language python')
+
+myinfo = Human(name='Michael' middlename='Adetola', lastname='Adesanya', hobby=Python)
